@@ -1,9 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿using PagespeedapiParser;
 
-using PagespeedapiParser;
-
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Google's Page Speed Loader! - Only 3 calls in a day only");
+Console.WriteLine("Enter website: like: google.ca");
+var uri = "http://www." + Console.ReadLine();
 Parser pgm = new Parser();
-await pgm.httpCall();
+//var uri = "http://www.google.ca";
+Console.WriteLine($"Site: {uri}");
+Console.WriteLine($"Loading ... ");
+
+pgm.httpCall(uri);
+//await pgm.httpCall(uri);
 
