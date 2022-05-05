@@ -1,6 +1,6 @@
 ﻿namespace PagespeedapiParser
 {
-
+/*
     public class Model
     {
         public string captchaResult { get; set; }
@@ -2328,5 +2328,5 @@
         public string viewTreemapLabel { get; set; }
         public string showRelevantAudits { get; set; }
     }
-
+	*/
 }

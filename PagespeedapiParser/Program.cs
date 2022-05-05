@@ -8,6 +8,6 @@ Parser pgm = new Parser();
 Console.WriteLine($"Site: {uri}");
 Console.WriteLine($"Loading ... ");
 
-pgm.httpCall(uri);
-//await pgm.httpCall(uri);
+//pgm.httpCall(uri);
+await pgm.httpCall(uri);
 
